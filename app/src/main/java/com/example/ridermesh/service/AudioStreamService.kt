@@ -22,7 +22,10 @@ class AudioStreamService : Service() {
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
-        // Start Foreground Notification here
+        // Start Foreground Notification here (Required for Android 8+)
+        // In a real app, create a notification channel and a notification.
+        // startForeground(1, NotificationCompat.Builder(this, "CHANNEL_ID").build())
+
         startAudioLoop()
         return START_STICKY
     }

@@ -82,7 +82,7 @@ class ReconnectWorker(
             return Result.failure()
         } finally {
             // Important: Stop discovery to save battery and clean up resources
-            meshNetworkManager?.tearDown()
+            meshNetworkManager?.stopDiscovery()
         }
 
         return if (connectionInitiated) {

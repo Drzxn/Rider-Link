@@ -104,11 +104,20 @@ class MeshNetworkManager(
     }
 
     /**
+     * Stops discovery and clears service requests.
+     * Does NOT remove the group or disconnect.
+     */
+    fun stopDiscovery() {
+        manager.clearServiceRequests(channel, null)
+        manager.stopPeerDiscovery(channel, null)
+    }
+
+    /**
      * Cleans up services and connections.
      */
     fun tearDown() {
+        stopDiscovery()
         manager.removeGroup(channel, null)
         manager.clearLocalServices(channel, null)
-        manager.clearServiceRequests(channel, null)
     }
 }
