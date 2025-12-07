@@ -13,4 +13,4 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "RiderMesh"
-include(":app")
+include ':app'
