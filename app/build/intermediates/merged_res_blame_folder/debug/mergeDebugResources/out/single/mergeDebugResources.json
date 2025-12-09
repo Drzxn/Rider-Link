@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.ridermesh.app-debug-37:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.ridermesh.app-main-39:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\xml_strings.xml.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\xml\\strings.xml"
+    },
+    {
+        "merged": "com.example.ridermesh.app-debug-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.ridermesh.app-main-39:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-debug-37:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\darsh\\.gradle\\daemon\\8.13\\com.example.ridermesh.app-main-39:\\mipmap-hdpi\\ic_launcher.webp"
+    }
+]
