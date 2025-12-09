@@ -3,28 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.ridermesh">
 
-    <!-- Wi-Fi Direct and Network Permissions -->
+    <!-- Wi‑Fi Direct and network permissions -->
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" /> <!-- Required for Sockets -->
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-    <!-- Location Permissions (Required for Wi-Fi P2P on Android 12 and below) -->
+    <!-- Location permissions (needed for Wi‑Fi P2P on older Android) -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
-    <!-- Android 13+ Nearby Devices Permission -->
-    <uses-permission android:name="android.permission.NEARBY_WIFI_DEVICES"
+    <!-- Android 13+ nearby Wi‑Fi devices -->
+    <uses-permission
+        android:name="android.permission.NEARBY_WIFI_DEVICES"
         android:usesPermissionFlags="neverForLocation"
         tools:targetApi="tiramisu" />
 
-    <!-- Audio Permissions -->
+    <!-- Audio and foreground service permissions -->
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-
-    <!-- Service Permissions -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-    <!-- Android 14+ Foreground Service Types -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -32,8 +30,8 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
+        android:roundIcon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.RiderMesh">
 
@@ -46,11 +44,10 @@
             </intent-filter>
         </activity>
 
-        <!-- Audio Stream Service -->
         <service
             android:name=".service.AudioStreamService"
-            android:foregroundServiceType="microphone"
-            android:exported="false" />
+            android:exported="false"
+            android:foregroundServiceType="microphone" />
 
     </application>
 
